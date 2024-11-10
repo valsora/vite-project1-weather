@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>Enter city name</h1>
+      <form id="city_form">
+        <input type="text" name="city" id="city_input" placeholder="Moscow"/>
+        <button class="submit_button" type="submit" disabled>Show weather</button>
+      </form>
+      <div class="weather_div" hidden>
+        <h2 class="h2_city_name"></h2>
+        <p class="p_weather"></p>
+        <p class="p_temp"></p>
+        <p class="p_feels_like"></p>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
