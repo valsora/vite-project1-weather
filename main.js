@@ -1,7 +1,8 @@
 'use strict';
 
+import { APPID } from "./api";
+
 const urlWeather = 'https://ru.api.openweathermap.org/data/2.5/weather?units=metric&q=';
-const APPID = '&appid=ded213be45d5e19e597a2380f3757e37';
 
 const cityForm = document.getElementById('city_form');
 cityForm.addEventListener('submit', async (event) => {
